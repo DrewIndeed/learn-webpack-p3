@@ -7,4 +7,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // dist can be any name
     filename: 'main.js', // main can be any name
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
