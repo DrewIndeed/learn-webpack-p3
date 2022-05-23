@@ -8,5 +8,6 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, 'dist'), // dist can be any name
     filename: 'main.[contenthash].js', // main can be any name
     clean: true,
+    assetModuleFilename: 'images/[hash][ext][query]',
   },
 });
