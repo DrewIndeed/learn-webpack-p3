@@ -1,0 +1,25 @@
+{
+  "name": "learn-webpack-p3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewIndeed/learn-webpack-p3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewIndeed/learn-webpack-p3/issues"
+  },
+  "homepage": "https://github.com/DrewIndeed/learn-webpack-p3#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
